@@ -1,0 +1,103 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+p{
+    font-size:15px;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    color:hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(0, 0%, 95%);
+}
+.main-container
+{
+    display:flex;
+    flex-direction: column;
+    width:350px;
+
+    margin:15% auto 15% auto;
+   text-align: left;
+   
+}
+.container-1
+{
+background-color: hsl(31, 77%, 52%);
+border:1px solid transparent;
+    border-radius: 5px 5px 0 0;
+padding:15%;
+}
+.container-2
+{
+background-color:hsl(184, 100%, 22%) ;
+padding:15%;
+}
+.container-3
+{
+background-color: hsl(179, 100%, 13%);
+padding:15%;
+    border:1px solid transparent;
+    border-radius:0 0 5px 5px;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #ffffff;
+  /* font-family: Arial; */
+  /* color: #ffffff; */
+  font-size: 15px;
+  background: hsl(0, 0%, 95%);
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+.container-1 .btn {
+    color: hsl(31, 77%, 52%);
+}.container-2 .btn {
+    color: hsl(184, 100%, 22%);
+}
+.container-3 .btn {
+    color: hsl(179, 100%, 13%) ;
+}
+.btn:hover {
+  background:transparent;
+  text-decoration: none;
+  color:#ffffff;
+  cursor: pointer;
+}
+@media only screen and (min-width:600px)
+{
+    .main-container
+    {
+        display:flex;
+        flex-direction: row;
+        width:1200px;
+    
+        margin:15% auto 15% auto;
+       text-align: left;
+       
+    }
+    .container-1
+    {
+        padding:7%;
+        border-radius: 5px 0 0 5px;
+    }
+    .container-2
+    {
+        padding:7%;
+    }
+    .container-3
+    {
+        padding:7%;
+        border-radius: 0 5px 5px 0;
+    }
+    p
+{
+    margin-bottom:70px;
+}
+}
